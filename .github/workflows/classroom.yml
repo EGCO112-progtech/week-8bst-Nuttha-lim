@@ -48,10 +48,10 @@ jobs:
         test-name: Test1-in
         setup-command: gcc main.c -o bst
         command: "./bst 4 1 6 2 11 9 "
-        input: |-
+        input: ''
+        expected-output: |-
           inOrder
             1  2  4  6  9 11
-        expected-output: ''
         comparison-method: contains
         timeout: 10
         max-score: 10
