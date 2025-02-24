@@ -86,7 +86,7 @@ void inOrder( TreeNodePtr treePtr )
         
       inOrder( treePtr->leftPtr ); //Recursion to the left
  
-      printf("%3d",treePtr->data) ;  //print the value 
+      printf("%-3d",treePtr->data) ;  //print the value 
    
       inOrder( treePtr->rightPtr ); //Recursion to the right
    } // end if                          
