@@ -22,7 +22,7 @@ jobs:
         command: "./bst 4 1 6 2 11 9 "
         input: ''
         expected-output: |-
-          preOrder
+          The preOrder traversal is:
             4  1  2  6 11  9
         comparison-method: contains
         timeout: 10
@@ -36,7 +36,7 @@ jobs:
         command: "./bst 4 1 6 2 11 9 "
         input: ''
         expected-output: |-
-          postOrder
+          The postOrder traversal is:
             2  1  9 11  6  4
         comparison-method: contains
         timeout: 10
@@ -50,7 +50,7 @@ jobs:
         command: "./bst 4 1 6 2 11 9 "
         input: ''
         expected-output: |-
-          inOrder
+          The inOrder traversal is:
             1  2  4  6  9 11
         comparison-method: contains
         timeout: 10
