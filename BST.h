@@ -107,7 +107,7 @@ void postOrder(TreeNodePtr treePtr) {
        printf("%3d", treePtr->data);
    }
 }
-
+//
 void printTree(TreeNodePtr treePtr, int n) {
    if (treePtr == NULL) return;
 
