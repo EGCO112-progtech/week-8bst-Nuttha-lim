@@ -21,7 +21,7 @@ for ( i = 1; i < argc; ++i ) {
     preOrder(b.root);
     printf("\n");
    
-    printf("\nThe postnOrder traversal is:\n");
+    printf("\nThe postOrder traversal is:\n");
     postOrder(b.root);
     printf("\n");
 
