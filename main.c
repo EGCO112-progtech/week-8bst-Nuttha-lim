@@ -27,7 +27,7 @@ for ( i = 1; i < argc; ++i ) {
 
    // traverse the tree inOrder
    //printf("\nThe inOrder traversal is:\n" );
-   printf("\ninOrder\n");
+    printf("\ninOrder\n");
     inOrder(b.root);
     printf("\n");
 
